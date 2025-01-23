@@ -1,0 +1,64 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #fff6c7;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto", serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common CSS */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #4B1010;
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 20px 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn:hover {
+    background-color: #FFB43B;
+    color: #4B1010;
+}
+
+.section-title {
+    color: #4B1010;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.paragraph {
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+}
