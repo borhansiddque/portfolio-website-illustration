@@ -1,0 +1,35 @@
+@media screen and (max-width:992px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-logo img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .navbar .mobile-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo-text {
+        font-size: 1.5rem;
+    }
+
+    .navbar .mobile-menu {
+        font-size: 1.7rem;
+    }
+}

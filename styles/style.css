@@ -28,6 +28,7 @@ a {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 
 .btn {
@@ -62,3 +63,55 @@ a {
     line-height: 32px;
     letter-spacing: 0.6px;
 }
+
+/* Header Section Style Start */
+
+/* Navbar Style Start */
+.navbar {
+    background-color: #FFB43B;
+    padding: 20px 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 70px;
+}
+
+.logo-text {
+    color: #4B1010;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.menu li a {
+    color: #4B1010;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.navbar .mobile-menu {
+    font-size: 2.1rem;
+    color: #4B1010;
+    display: none;
+}
+
+/* Navbar Style End */
+
+/* Header Section Style End */
