@@ -37,7 +37,7 @@ a {
     font-family: "Poppins", serif;
     font-size: 1.25rem;
     font-weight: 500;
-    padding: 20px 45px;
+    padding: 15px 30px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -101,7 +101,7 @@ a {
 }
 
 .menu li a {
-    color: #4B1010;
+    color: #1e1e1e;
     font-size: 1.25rem;
     font-weight: 500;
 }
@@ -113,5 +113,42 @@ a {
 }
 
 /* Navbar Style End */
+
+/* Hero Section Style Start */
+.hero-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-title {
+    color: #4B1010;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.hero-description {
+    color: #1e1e1e;
+    font-size: 1.75rem;
+    margin: 25px 0px 40px;
+}
+
+.hero-btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-img {
+    width: 50%;
+    text-align: right;
+}
+/* Hero Section Style End */
 
 /* Header Section Style End */
