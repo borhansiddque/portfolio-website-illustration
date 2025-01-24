@@ -64,6 +64,10 @@ a {
     letter-spacing: 0.6px;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 /* Header Section Style Start */
 
 /* Navbar Style Start */
@@ -116,12 +120,12 @@ a {
 
 /* Hero Section Style Start */
 .hero-section {
-    background-color: #fff;
     border-radius: 8px;
     padding: 100px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .hero-content {
@@ -152,3 +156,36 @@ a {
 /* Hero Section Style End */
 
 /* Header Section Style End */
+
+/* About Me Section Style Start */
+.about-section {
+    margin-top: 80px;
+    border-radius: 8px;
+    padding: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content .section-title {
+    margin-bottom: 30px;
+}
+
+.about-paragraph-one {
+    margin-bottom: 20px;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    border: 2px solid #4B1010;
+    border-radius: 8px;
+}
+/* About Me Section Style End */
