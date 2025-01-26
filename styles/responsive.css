@@ -15,6 +15,10 @@
     .project-title {
         font-size: 1.5rem;
     }
+    
+    .team-name {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -65,7 +69,8 @@
         width: 100%;
     }
 
-    .projects-container {
+    .projects-container,
+    .team-cards-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -104,7 +109,8 @@
         width: 80%;
     }
     
-    .projects-container {
+    .projects-container,
+    .team-cards-container {
         grid-template-columns: 1fr;
     }
 
@@ -140,5 +146,15 @@
     .about-img {
         width: 100%;
     }
+
+    .team-section {
+        padding: 50px 20px;
+    }
+
+    .team-name {
+        font-size: 1.5rem;
+    }
+
+    
 
 }
