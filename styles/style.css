@@ -292,3 +292,49 @@ a {
     color: #4B1010;
 }
 /* Team Section Style End */
+
+/* Contact Section Style Start */
+.contact-section {
+    margin-top: 80px;
+    border-radius: 8px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-img {
+    width: 50%;
+}
+
+.contact-img img {
+    border: 2px solid #4B1010;
+    border-radius: 10px;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #4B1010;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+    margin-top: 10px;
+}
+
+.contact-form-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Contact Section Style End */
