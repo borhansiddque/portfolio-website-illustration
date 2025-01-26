@@ -48,12 +48,11 @@
     }
 
     .about-section {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 50px;
     }
 
     .about-content {
-        width: 100%;
         text-align: center;
     }
 
@@ -62,11 +61,11 @@
     }
 
     .about-img {
-        width: 60%;
+        text-align: center;
     }
 
     .about-img img {
-        width: 100%;
+        width: 60%;
     }
 
     .projects-container,
@@ -127,10 +126,6 @@
     .hero-img img {
         width: 100%;
     }
-
-    .about-img {
-        width: 80%;
-    }
     
     .projects-container,
     .team-cards-container {
@@ -166,6 +161,10 @@
 
     .social-links {
         justify-content: start;
+    }
+
+    .about-img img {
+        width: 85%;
     }
 }
 
@@ -214,6 +213,10 @@
 
     .footer-paragraph {
         width: 100%;
+    }
+
+    .about-img img {
+        width: 95%;
     }
     
 }

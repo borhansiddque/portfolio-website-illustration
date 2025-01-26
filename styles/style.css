@@ -162,15 +162,14 @@ a {
     margin-top: 80px;
     border-radius: 8px;
     padding: 80px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
 
-.about-content {
+/* .about-content {
     width: 50%;
-}
+} */
 
 .about-content .section-title {
     margin-bottom: 30px;
@@ -180,9 +179,9 @@ a {
     margin-bottom: 20px;
 }
 
-.about-img {
+/* .about-img {
     width: 50%;
-}
+} */
 
 .about-img img {
     border: 2px solid #4B1010;
@@ -214,7 +213,6 @@ a {
     box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.25);
     padding: 20px;
 }
-
 
 .project-img img {
     width: 150px;
