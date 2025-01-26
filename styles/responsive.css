@@ -81,6 +81,21 @@
     .contact-img img {
         width: 100%;
     }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .social-links-container {
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -139,6 +154,19 @@
     .contact-form {
         width: 100%;
     }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .social-links-container {
+        grid-column: 1;
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: start;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -182,6 +210,10 @@
 
     .contact-form-btn {
         margin-top: 30px;
+    }
+
+    .footer-paragraph {
+        width: 100%;
     }
     
 }
