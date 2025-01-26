@@ -6,6 +6,15 @@
     .hero-description {
         font-size: 1.3rem;
     }
+
+    .projects-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -55,6 +64,10 @@
     .about-img img {
         width: 100%;
     }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -91,6 +104,14 @@
         width: 80%;
     }
     
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-img,
+    .project-content {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
