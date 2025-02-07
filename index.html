@@ -17,17 +17,17 @@
 
 <body>
     <div class="container">
-        <header>
+        <header id="header">
             <nav class="navbar">
                 <div class="nav-logo">
                     <img src="./images/logo.png" alt="Website Logo">
                     <h3 class="logo-text">Borhan Siddque.</h3>
                 </div>
                 <ul class="menu">
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">About My Team</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-projects">Projects</a></li>
+                    <li><a href="#my-team">About My Team</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
                 <div class="mobile-menu">
                     <i class="ri-menu-line"></i>
@@ -51,7 +51,7 @@
         </header>
         <main>
             <!-- About Me Section -->
-            <section class="about-section bg-white">
+            <section id="about-me" class="about-section bg-white">
                 <div class="about-img">
                     <img src="./images/about-img.png" alt="About Section Image">
                 </div>
@@ -67,7 +67,7 @@
                 </div>
             </section>
             <!-- Projects Section -->
-            <section class="projects-section bg-white">
+            <section id="my-projects" class="projects-section bg-white">
                 <h2 class="section-title">My Projects</h2>
                 <div class="projects-container">
                     <!-- Project One -->
@@ -108,11 +108,12 @@
                     </div>
                 </div>
                 <div class="projects-section-button">
-                    <button class="btn">See All Projects</button>
+                    <a href="https://github.com/borhansiddque" target="_blank"><button class="btn">See All
+                            Projects</button></a>
                 </div>
             </section>
             <!-- Team Section -->
-            <section class="team-section bg-white">
+            <section id="my-team" class="team-section bg-white">
                 <h2 class="section-title">Meet The Team</h2>
                 <div class="team-cards-container">
                     <!-- Team Card One -->
@@ -164,7 +165,7 @@
                 </div>
             </section>
             <!-- Contact Section -->
-            <section class="contact-section bg-white">
+            <section id="contact-me" class="contact-section bg-white">
                 <div class="contact-img">
                     <img src="./images/contact-img.png" alt="Contact Section Image">
                 </div>
@@ -184,15 +185,17 @@
             <div class="footer-container">
                 <div class="footer-description">
                     <h3 class="footer-logo">Borhan Siddque.</h3>
-                    <p class="footer-paragraph">I believe in creating clean, efficient, and user-centered web applications. As a MERN stack developer, I'm always learning and growing, striving to improve my skills and stay ahead of the curve in this rapidly evolving field.</p>
+                    <p class="footer-paragraph">I believe in creating clean, efficient, and user-centered web
+                        applications. As a MERN stack developer, I'm always learning and growing, striving to improve my
+                        skills and stay ahead of the curve in this rapidly evolving field.</p>
                 </div>
                 <div class="important-links-container">
                     <h3 class="links-title">Important Links</h3>
                     <div class="important-links">
-                        <a href="">Home</a>
-                        <a href="">About Me</a>
-                        <a href="">Projects</a>
-                        <a href="">Contact Me</a>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#my-projects">Projects</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
                     </div>
                 </div>
                 <div class="social-links-container">
