@@ -400,4 +400,25 @@ a {
     color: #4B1010;
 }
 
+.scroll-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.scroll-btn {
+    padding: 10px 15px;
+    background-color: #4B1010;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #FFB43B;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+
 /* Footer Section Style End */

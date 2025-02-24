@@ -150,6 +150,10 @@
         width: 100%;
     }
 
+    .footer {
+        padding: 80px 0px 50px;
+    }
+
     .footer-container {
         grid-template-columns: 1fr;
     }
