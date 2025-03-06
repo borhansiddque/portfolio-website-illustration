@@ -1,257 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <!-- Remix Icon CDN Link -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Personal Portfolio - Illustration Fun Project</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header id="header">
-            <nav class="navbar">
-                <div class="nav-logo">
-                    <img src="./images/logo.png" alt="Website Logo">
-                    <a href="">
-                        <h3 class="logo-text">Borhan Siddque.</h3>
-                    </a>
+      <header id="header">
+        <nav class="navbar">
+          <div class="nav-logo">
+            <img src="./images/logo.png" alt="Website Logo" />
+            <a href="">
+              <h3 class="logo-text">Borhan Siddque.</h3>
+            </a>
+          </div>
+          <ul class="menu">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-projects">Projects</a></li>
+            <li><a href="#my-team">About My Team</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
+          <div class="mobile-menu">
+            <i class="ri-menu-line"></i>
+          </div>
+        </nav>
+        <section class="hero-section bg-white">
+          <div class="hero-content">
+            <h1 class="hero-title">I’m Borhan Siddque, MERN Stack Developer</h1>
+            <p class="hero-description">
+              Crafting scalable, dynamic, and user-friendly web applications
+              with expertise in MongoDB, Express.js, React.js, and Node.js.
+            </p>
+            <div class="hero-btn-container">
+              <button class="btn">View My Work</button>
+              <button class="btn">Download CV</button>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="./images/hero-img.png" alt="Banner Image" />
+          </div>
+        </section>
+      </header>
+      <main>
+        <!-- About Me Section -->
+        <section id="about-me" class="about-section bg-white">
+          <div class="about-img">
+            <img src="./images/about-img.png" alt="About Section Image" />
+          </div>
+          <div class="about-content">
+            <h3 class="section-title">About Me</h3>
+            <p class="praragarph about-paragraph-one">
+              I'm Borhan Siddique, a passionate MERN Stack Developer with a
+              knack for building scalable, dynamic, and user-friendly web
+              applications. With a strong foundation in MongoDB, Express.js,
+              React.js, and Node.js, I thrive on creating seamless full-stack
+              solutions that solve real-world problems.
+            </p>
+            <p class="praragarph">
+              Beyond coding, I enjoy exploring the latest tech trends and
+              continuously upskilling to stay ahead in the ever-evolving tech
+              landscape. I’m dedicated to delivering clean, efficient, and
+              maintainable code while ensuring an exceptional user experience.
+            </p>
+          </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="my-projects" class="projects-section bg-white">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-container">
+            <!-- Project One -->
+            <div class="project">
+              <div class="project-img">
+                <img src="./images/project-img-1.png" alt="Project Image" />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">E-commerce Projects</h4>
+                <p class="praragarph">
+                  A fully functional e-commerce platform built with the MERN
+                  stack. Features include user authentication, product listing,
+                  shopping cart, payment gateway integration, and admin
+                  dashboard for managing products and orders.
+                </p>
+              </div>
+            </div>
+            <!-- Project Two -->
+            <div class="project">
+              <div class="project-img">
+                <img src="./images/project-img-2.png" alt="Project Image" />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Personal Projects</h4>
+                <p class="praragarph">
+                  A social platform for developers to connect, share ideas, and
+                  collaborate on projects. Includes profile creation, messaging,
+                  and project posting features.
+                </p>
+              </div>
+            </div>
+            <!-- Project Three -->
+            <div class="project">
+              <div class="project-img">
+                <img src="./images/project-img-3.png" alt="Project Image" />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Economic Projects</h4>
+                <p class="praragarph">
+                  A dynamic web application designed for analyzing and
+                  visualizing economic data. Includes features like interactive
+                  charts, real-time data fetching, and predictive analytics for
+                  informed decision-making."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects-section-button">
+            <a href="https://github.com/borhansiddque" target="_blank"
+              ><button class="btn">See All Projects</button></a
+            >
+          </div>
+        </section>
+        <!-- Team Section -->
+        <section id="my-team" class="team-section bg-white">
+          <h2 class="section-title">Meet The Team</h2>
+          <div class="team-cards-container">
+            <!-- Team Card One -->
+            <div class="team-card">
+              <div class="team-img">
+                <img src="./images/team-one.png" alt="Team Member Image" />
+              </div>
+              <div class="team-content">
+                <h4 class="team-name">Borhan Siddque</h4>
+                <p class="team-title">Mern Stack Developer</p>
+                <div class="team-social">
+                  <a
+                    href="https://www.facebook.com/borhan.siddque.19/"
+                    target="_blank"
+                    ><i class="ri-facebook-box-fill"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/borhan_siddque/"
+                    target="_blank"
+                    ><i class="ri-instagram-fill"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/borhan-siddque-117b121a9/"
+                    target="_blank"
+                    ><i class="ri-linkedin-box-fill"></i
+                  ></a>
+                  <a href="https://github.com/borhansiddque" target="_blank"
+                    ><i class="ri-github-fill"></i
+                  ></a>
                 </div>
-                <ul class="menu">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-projects">Projects</a></li>
-                    <li><a href="#my-team">About My Team</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                </ul>
-                <div class="mobile-menu">
-                    <i class="ri-menu-line"></i>
+              </div>
+            </div>
+            <!-- Team Card Two -->
+            <div class="team-card">
+              <div class="team-img">
+                <img src="./images/team-two.png" alt="Team Member Image" />
+              </div>
+              <div class="team-content">
+                <h4 class="team-name">Mariya Siddque</h4>
+                <p class="team-title">UI/UX Designer</p>
+                <div class="team-social">
+                  <a href=""><i class="ri-facebook-box-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                  <a href=""><i class="ri-github-fill"></i></a>
                 </div>
-            </nav>
-            <section class="hero-section bg-white">
-                <div class="hero-content">
-                    <h1 class="hero-title">I’m Borhan Siddque,
-                        MERN Stack Developer</h1>
-                    <p class="hero-description">Crafting scalable, dynamic, and user-friendly web applications with
-                        expertise in MongoDB, Express.js, React.js, and Node.js.</p>
-                    <div class="hero-btn-container">
-                        <button class="btn">View My Work</button>
-                        <button class="btn">Download CV</button>
-                    </div>
+              </div>
+            </div>
+            <!-- Team Card Three -->
+            <div class="team-card team-card-three">
+              <div class="team-img">
+                <img src="./images/team-three.png" alt="Team Member Image" />
+              </div>
+              <div class="team-content">
+                <h4 class="team-name">Cooper</h4>
+                <p class="team-title">Director</p>
+                <div class="team-social">
+                  <a href=""><i class="ri-facebook-box-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
                 </div>
-                <div class="hero-img">
-                    <img src="./images/hero-img.png" alt="Banner Image">
+              </div>
+            </div>
+            <!-- Team Card Four -->
+            <div class="team-card">
+              <div class="team-img">
+                <img src="./images/team-one.png" alt="Team Member Image" />
+              </div>
+              <div class="team-content">
+                <h4 class="team-name">Jashedul Islam Shaun</h4>
+                <p class="team-title">Mern Stack Developer</p>
+                <div class="team-social">
+                  <a href=""><i class="ri-facebook-box-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                  <a href=""><i class="ri-github-fill"></i></a>
                 </div>
-            </section>
-        </header>
-        <main>
-            <!-- About Me Section -->
-            <section id="about-me" class="about-section bg-white">
-                <div class="about-img">
-                    <img src="./images/about-img.png" alt="About Section Image">
+              </div>
+            </div>
+            <!-- Team Card Five -->
+            <div class="team-card">
+              <div class="team-img">
+                <img src="./images/team-one.png" alt="Team Member Image" />
+              </div>
+              <div class="team-content">
+                <h4 class="team-name">Tohidul Islam Sojib</h4>
+                <p class="team-title">ToTo Company Manager</p>
+                <div class="team-social">
+                  <a href=""><i class="ri-facebook-box-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                  <a href=""><i class="ri-github-fill"></i></a>
                 </div>
-                <div class="about-content">
-                    <h3 class="section-title">About Me</h3>
-                    <p class="praragarph about-paragraph-one">I'm Borhan Siddique, a passionate MERN Stack Developer
-                        with a knack for building scalable, dynamic, and user-friendly web applications. With a strong
-                        foundation in MongoDB, Express.js, React.js, and Node.js, I thrive on creating seamless
-                        full-stack solutions that solve real-world problems.</p>
-                    <p class="praragarph">Beyond coding, I enjoy exploring the latest tech trends and continuously
-                        upskilling to stay ahead in the ever-evolving tech landscape. I’m dedicated to delivering clean,
-                        efficient, and maintainable code while ensuring an exceptional user experience.</p>
-                </div>
-            </section>
-            <!-- Projects Section -->
-            <section id="my-projects" class="projects-section bg-white">
-                <h2 class="section-title">My Projects</h2>
-                <div class="projects-container">
-                    <!-- Project One -->
-                    <div class="project">
-                        <div class="project-img">
-                            <img src="./images/project-img-1.png" alt="Project Image">
-                        </div>
-                        <div class="project-content">
-                            <h4 class="project-title">E-commerce Projects</h4>
-                            <p class="praragarph">A fully functional e-commerce platform built with the MERN stack.
-                                Features include user authentication, product listing, shopping cart, payment gateway
-                                integration, and admin dashboard for managing products and orders.</p>
-                        </div>
-                    </div>
-                    <!-- Project Two -->
-                    <div class="project">
-                        <div class="project-img">
-                            <img src="./images/project-img-2.png" alt="Project Image">
-                        </div>
-                        <div class="project-content">
-                            <h4 class="project-title">Personal Projects</h4>
-                            <p class="praragarph">A social platform for developers to connect, share ideas, and
-                                collaborate on projects. Includes profile creation, messaging, and project posting
-                                features.</p>
-                        </div>
-                    </div>
-                    <!-- Project Three -->
-                    <div class="project">
-                        <div class="project-img">
-                            <img src="./images/project-img-3.png" alt="Project Image">
-                        </div>
-                        <div class="project-content">
-                            <h4 class="project-title">Economic Projects</h4>
-                            <p class="praragarph">A dynamic web application designed for analyzing and visualizing
-                                economic data. Includes features like interactive charts, real-time data fetching, and
-                                predictive analytics for informed decision-making."</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="projects-section-button">
-                    <a href="https://github.com/borhansiddque" target="_blank"><button class="btn">See All
-                            Projects</button></a>
-                </div>
-            </section>
-            <!-- Team Section -->
-            <section id="my-team" class="team-section bg-white">
-                <h2 class="section-title">Meet The Team</h2>
-                <div class="team-cards-container">
-                    <!-- Team Card One -->
-                    <div class="team-card">
-                        <div class="team-img">
-                            <img src="./images/team-one.png" alt="Team Member Image">
-                        </div>
-                        <div class="team-content">
-                            <h4 class="team-name">Borhan Siddque</h4>
-                            <p class="team-title">Mern Stack Developer</p>
-                            <div class="team-social">
-                                <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank"><i class="ri-facebook-box-fill"></i></a>
-                                <a href="https://www.instagram.com/borhan_siddque/" target="_blank"><i class="ri-instagram-fill"></i></a>
-                                <a href="https://www.linkedin.com/in/borhan-siddque-117b121a9/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
-                                <a href="https://github.com/borhansiddque" target="_blank"><i class="ri-github-fill"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Card Two -->
-                    <div class="team-card">
-                        <div class="team-img">
-                            <img src="./images/team-two.png" alt="Team Member Image">
-                        </div>
-                        <div class="team-content">
-                            <h4 class="team-name">Mariya Siddque</h4>
-                            <p class="team-title">UI/UX Designer</p>
-                            <div class="team-social">
-                                <a href=""><i class="ri-facebook-box-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""><i class="ri-linkedin-box-fill"></i></a>
-                                <a href=""><i class="ri-github-fill"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Card Three -->
-                    <div class="team-card team-card-three">
-                        <div class="team-img">
-                            <img src="./images/team-three.png" alt="Team Member Image">
-                        </div>
-                        <div class="team-content">
-                            <h4 class="team-name">Cooper</h4>
-                            <p class="team-title">Director</p>
-                            <div class="team-social">
-                                <a href=""><i class="ri-facebook-box-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Card Four -->
-                    <div class="team-card">
-                        <div class="team-img">
-                            <img src="./images/team-one.png" alt="Team Member Image">
-                        </div>
-                        <div class="team-content">
-                            <h4 class="team-name">Jashedul Islam Shaun</h4>
-                            <p class="team-title">Mern Stack Developer</p>
-                            <div class="team-social">
-                                <a href=""><i class="ri-facebook-box-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""><i class="ri-linkedin-box-fill"></i></a>
-                                <a href=""><i class="ri-github-fill"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Card Five -->
-                    <div class="team-card">
-                        <div class="team-img">
-                            <img src="./images/team-one.png" alt="Team Member Image">
-                        </div>
-                        <div class="team-content">
-                            <h4 class="team-name">Tohidul Islam Sojib</h4>
-                            <p class="team-title">ToTo Company Manager</p>
-                            <div class="team-social">
-                                <a href=""><i class="ri-facebook-box-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""><i class="ri-linkedin-box-fill"></i></a>
-                                <a href=""><i class="ri-github-fill"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Contact Section -->
-            <section id="contact-me" class="contact-section bg-white">
-                <div class="contact-img">
-                    <img src="./images/contact-img.png" alt="Contact Section Image">
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Enter Your Name..">
-                    <input type="email" name="" id="" placeholder="Enter Your Email..">
-                    <textarea name="" id="" rows="8" placeholder="About Your Self.."></textarea>
-                    <div class="contact-form-btn">
-                        <button class="btn">Join Us</button>
-                    </div>
-                </form>
-            </section>
-        </main>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact-me" class="contact-section bg-white">
+          <div class="contact-img">
+            <img src="./images/contact-img.png" alt="Contact Section Image" />
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Enter Your Name.." />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Your Email.."
+            />
+            <textarea
+              name=""
+              id=""
+              rows="8"
+              placeholder="About Your Self.."
+            ></textarea>
+            <div class="contact-form-btn">
+              <button class="btn">Join Us</button>
+            </div>
+          </form>
+        </section>
+      </main>
     </div>
     <footer class="footer">
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-description">
-                    <h3 class="footer-logo">Borhan Siddque.</h3>
-                    <p class="footer-paragraph">I believe in creating clean, efficient, and user-centered web
-                        applications. As a MERN stack developer, I'm always learning and growing, striving to improve my
-                        skills and stay ahead of the curve in this rapidly evolving field.</p>
-                </div>
-                <div class="important-links-container">
-                    <h3 class="links-title">Important Links</h3>
-                    <div class="important-links">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about-me">About Me</a></li>
-                        <li><a href="#my-projects">Projects</a></li>
-                        <li><a href="#contact-me">Contact Me</a></li>
-                    </div>
-                </div>
-                <div class="social-links-container">
-                    <h3 class="links-title">Social Links</h3>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank"><i class="ri-facebook-box-fill"></i></a>
-                        <a href="https://www.instagram.com/borhan_siddque/" target="_blank"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://www.linkedin.com/in/borhan-siddque-117b121a9/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
-                        <a href="https://github.com/borhansiddque" target="_blank"><i class="ri-github-fill"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-description">
+            <h3 class="footer-logo">Borhan Siddque.</h3>
+            <p class="footer-paragraph">
+              I believe in creating clean, efficient, and user-centered web
+              applications. As a MERN stack developer, I'm always learning and
+              growing, striving to improve my skills and stay ahead of the curve
+              in this rapidly evolving field.
+            </p>
+          </div>
+          <div class="important-links-container">
+            <h3 class="links-title">Important Links</h3>
+            <div class="important-links">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#my-projects">Projects</a></li>
+              <li><a href="#contact-me">Contact Me</a></li>
             </div>
-            <div class="scroll-btn-container">
-                <a href="#header">
-                    <button class="scroll-btn">
-                        <i class="ri-arrow-up-line"></i>
-                    </button>
-                </a>
+          </div>
+          <div class="social-links-container">
+            <h3 class="links-title">Social Links</h3>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/borhan.siddque.19/"
+                target="_blank"
+                ><i class="ri-facebook-box-fill"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/borhan_siddque/"
+                target="_blank"
+                ><i class="ri-instagram-fill"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/borhan-siddque-117b121a9/"
+                target="_blank"
+                ><i class="ri-linkedin-box-fill"></i
+              ></a>
+              <a href="https://github.com/borhansiddque" target="_blank"
+                ><i class="ri-github-fill"></i
+              ></a>
             </div>
-            
+          </div>
         </div>
+        <div class="scroll-btn-container">
+          <a href="#header">
+            <button class="scroll-btn">
+              <i class="ri-arrow-up-line"></i>
+            </button>
+          </a>
+        </div>
+      </div>
     </footer>
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
