@@ -106,11 +106,11 @@
         display: none;
     }
 
-    .navbar .mobile-menu {
+    .navbar .mobile-menu-open-btn {
         display: block;
     }
 
-    .navbar .mobile-menu {
+    .navbar .mobile-menu-open-btn {
         font-size: 1.7rem;
     }
 

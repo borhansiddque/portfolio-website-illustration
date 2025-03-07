@@ -18,8 +18,19 @@
   </head>
 
   <body>
-    <div class="container">
-      <header id="header">
+      <div class="mobile-menu">
+        <div id="mobile-menu-close-btn">
+          <i class="ri-close-fill"></i>
+        </div>
+        <div class="mobile-menu-item">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Team</a>
+          <a href="">Contact</a>
+        </div>
+
+      </div>
+      <header class="container" id="header">
         <nav class="navbar">
           <div class="nav-logo">
             <img src="./images/logo.png" alt="Website Logo" />
@@ -33,7 +44,7 @@
             <li><a href="#my-team">About My Team</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
           </ul>
-          <div class="mobile-menu">
+          <div class="mobile-menu-open-btn" id="mobile-menu-open-btn">
             <i class="ri-menu-line"></i>
           </div>
         </nav>
@@ -54,7 +65,7 @@
           </div>
         </section>
       </header>
-      <main>
+      <main class="container">
         <!-- About Me Section -->
         <section id="about-me" class="about-section bg-white">
           <div class="about-img">
@@ -271,7 +282,6 @@
           </form>
         </section>
       </main>
-    </div>
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
